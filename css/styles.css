@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/* CSS Document */
+/* www.josefzacek.com /*
+
+/* mobile properties*/
+body {
+	background-color:yellow;
+	font-size:80%;
+}
+img {
+    width:100%;
+    height:auto;
+}
+
+/* column shortcodes */
+.full_width,
+.one_half,
+.one_third,
+.two_third,
+.one_fourth,
+.three_fourth,
+.one_fifth,
+.two_fifth,
+.three_fifth,
+.four_fifth,
+.one_sixth {
+	clear: both;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0.5%;
+	transition:All 0.7248s linear;
+	-webkit-transition:All 0.7248s linear;
+	-moz-transition:All 0.7248s linear;
+}
+
+#wrapper {
+	max-width:1100px;
+	margin:auto;
+}
+	
+
+        
+/* tablet properties*/
+@media only screen and (min-width: 481px) {
+  body {
+	  background-color:red;
+	  font-size:85%;
+  }
+  .full_width,
+  .one_half,
+  .one_third,
+  .two_third,
+  .one_fourth,
+  .three_fourth,
+  .one_fifth,
+  .two_fifth,
+  .three_fifth,
+  .four_fifth,
+  .one_sixth {
+	  float: left;
+	  clear:none;
+  }
+  .clear_column {
+	  clear:both;
+	  display:block;
+	  font-size:0; height:0;
+	  line-height:0; width:100%;
+	  overflow: hidden;
+  }
+  .last_column  {
+	float:right;
+  }
+  .full_width  {
+	  width: 100%;
+  }
+  .one_half  {
+	  width: 50%;
+  }
+  .one_third  {
+	  width: 33.3%;
+  }
+  .two_third  {
+	  width: 66.6%;
+  }
+  .one_fourth  {
+	  width: 50%;
+  }
+  .three_fourth  {
+	  width: 75%;
+  }
+  .one_fifth  {
+	  width: 20%;
+  }
+  .two_fifth  {
+	  width: 40%;
+  }
+  .three_fifth  {
+	  width: 60%;
+  }
+  .four_fifth  {
+	  width: 80%;
+  }
+  .one_sixth  {
+	  width: 33.3%;
+	}
+	
+}
+
+/* desktop properties */
+@media only screen and (min-width: 769px) {
+  body {
+	background-color:green;
+	font-size:95%;
+  }
+   .one_fourth  {
+	width: 25%;
+  }
+  .one_sixth  {
+	  width: 16.6%;
+  }
+}
