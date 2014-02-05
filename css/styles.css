@@ -45,6 +45,20 @@ img {
 	max-width:1100px;
 	margin:auto;
 }
+
+
+/* tinynav */
+.tinynav { 
+    width: 100%;
+    padding: 5px 7px;
+    border: 1px solid #E8E8E8;
+    cursor: pointer;
+	background: #F8F8F8 url(../images/navbar-select.png) no-repeat right;
+    -webkit-appearance: none;
+}
+#nav { 
+    display: none;
+}
 	
 
         
@@ -126,4 +140,11 @@ img {
   .one_sixth  {
 	  width: 16.6%;
   }
+/* tinynav */
+.tinynav { 
+    display: none;
+  }
+#nav { 
+    display: block;
+}
 }

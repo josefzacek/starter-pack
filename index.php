@@ -19,12 +19,26 @@
 <![endif]-->
 
 <div id="wrapper">
+    
+    <nav>
+        <ul id="nav">
+            <li>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+        
+    </nav>
 
 
 </div>
 <!-- wrapper end -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="js/tinynav.min.js"></script>
 <script src="js/scripts.js"></script>
 <script src="js/css3-mediaqueries.js"></script>
 </body>
