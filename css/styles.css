@@ -46,7 +46,12 @@ img {
 	margin:auto;
 }
 
-
+/* remove default arrow from select in firefox */
+nav select {
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+}
 /* tinynav */
 .tinynav { 
     width: 100%;
